@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFC3DA572BEF672A00C4C683 /* swiftui_toyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3DA562BEF672A00C4C683 /* swiftui_toyApp.swift */; };
+		CFC3DA5D2BEF672C00C4C683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC3DA5C2BEF672C00C4C683 /* Assets.xcassets */; };
+		CFC3DA612BEF672C00C4C683 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC3DA602BEF672C00C4C683 /* Preview Assets.xcassets */; };
+		CFC3DA682BEF674800C4C683 /* ConfirmationDialogExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3DA672BEF674800C4C683 /* ConfirmationDialogExampleView.swift */; };
+		CFC3DA6A2BEF692200C4C683 /* MenuExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3DA692BEF692200C4C683 /* MenuExampleView.swift */; };
+		CFC3DA6C2BEF749200C4C683 /* ShowUserInterfaceClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3DA6B2BEF749200C4C683 /* ShowUserInterfaceClassesView.swift */; };
+		CFC3DA6E2BF0B4D500C4C683 /* ConfirmationDialogAndMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3DA6D2BF0B4D500C4C683 /* ConfirmationDialogAndMenuView.swift */; };
+		CFC3DA702BF21D8900C4C683 /* ButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3DA6F2BF21D8900C4C683 /* ButtonExampleView.swift */; };
+		CFC3DA722BF61B4800C4C683 /* NavigationJump.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3DA712BF61B4800C4C683 /* NavigationJump.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFC3DA532BEF672A00C4C683 /* swiftui-toy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-toy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC3DA562BEF672A00C4C683 /* swiftui_toyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_toyApp.swift; sourceTree = "<group>"; };
+		CFC3DA5C2BEF672C00C4C683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC3DA5E2BEF672C00C4C683 /* swiftui_toy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftui_toy.entitlements; sourceTree = "<group>"; };
+		CFC3DA602BEF672C00C4C683 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFC3DA672BEF674800C4C683 /* ConfirmationDialogExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogExampleView.swift; sourceTree = "<group>"; };
+		CFC3DA692BEF692200C4C683 /* MenuExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuExampleView.swift; sourceTree = "<group>"; };
+		CFC3DA6B2BEF749200C4C683 /* ShowUserInterfaceClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUserInterfaceClassesView.swift; sourceTree = "<group>"; };
+		CFC3DA6D2BF0B4D500C4C683 /* ConfirmationDialogAndMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogAndMenuView.swift; sourceTree = "<group>"; };
+		CFC3DA6F2BF21D8900C4C683 /* ButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExampleView.swift; sourceTree = "<group>"; };
+		CFC3DA712BF61B4800C4C683 /* NavigationJump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationJump.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFC3DA502BEF672A00C4C683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF64A57A2BF8E20E00E5065D /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3DA712BF61B4800C4C683 /* NavigationJump.swift */,
+				CFC3DA692BEF692200C4C683 /* MenuExampleView.swift */,
+				CFC3DA6F2BF21D8900C4C683 /* ButtonExampleView.swift */,
+				CFC3DA6B2BEF749200C4C683 /* ShowUserInterfaceClassesView.swift */,
+				CFC3DA672BEF674800C4C683 /* ConfirmationDialogExampleView.swift */,
+				CFC3DA6D2BF0B4D500C4C683 /* ConfirmationDialogAndMenuView.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		CFC3DA4A2BEF672A00C4C683 = {
+			isa = PBXGroup;
+			children = (
+				CFC3DA552BEF672A00C4C683 /* swiftui-toy */,
+				CFC3DA542BEF672A00C4C683 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC3DA542BEF672A00C4C683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3DA532BEF672A00C4C683 /* swiftui-toy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC3DA552BEF672A00C4C683 /* swiftui-toy */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3DA562BEF672A00C4C683 /* swiftui_toyApp.swift */,
+				CF64A57A2BF8E20E00E5065D /* Examples */,
+				CFC3DA5C2BEF672C00C4C683 /* Assets.xcassets */,
+				CFC3DA5E2BEF672C00C4C683 /* swiftui_toy.entitlements */,
+				CFC3DA5F2BEF672C00C4C683 /* Preview Content */,
+			);
+			path = "swiftui-toy";
+			sourceTree = "<group>";
+		};
+		CFC3DA5F2BEF672C00C4C683 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3DA602BEF672C00C4C683 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFC3DA522BEF672A00C4C683 /* swiftui-toy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC3DA642BEF672C00C4C683 /* Build configuration list for PBXNativeTarget "swiftui-toy" */;
+			buildPhases = (
+				CFC3DA4F2BEF672A00C4C683 /* Sources */,
+				CFC3DA502BEF672A00C4C683 /* Frameworks */,
+				CFC3DA512BEF672A00C4C683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui-toy";
+			productName = "swiftui-toy";
+			productReference = CFC3DA532BEF672A00C4C683 /* swiftui-toy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFC3DA4B2BEF672A00C4C683 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CFC3DA522BEF672A00C4C683 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CFC3DA4E2BEF672A00C4C683 /* Build configuration list for PBXProject "swiftui-toy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFC3DA4A2BEF672A00C4C683;
+			productRefGroup = CFC3DA542BEF672A00C4C683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFC3DA522BEF672A00C4C683 /* swiftui-toy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC3DA512BEF672A00C4C683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC3DA612BEF672C00C4C683 /* Preview Assets.xcassets in Resources */,
+				CFC3DA5D2BEF672C00C4C683 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFC3DA4F2BEF672A00C4C683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC3DA6C2BEF749200C4C683 /* ShowUserInterfaceClassesView.swift in Sources */,
+				CFC3DA722BF61B4800C4C683 /* NavigationJump.swift in Sources */,
+				CFC3DA6E2BF0B4D500C4C683 /* ConfirmationDialogAndMenuView.swift in Sources */,
+				CFC3DA6A2BEF692200C4C683 /* MenuExampleView.swift in Sources */,
+				CFC3DA702BF21D8900C4C683 /* ButtonExampleView.swift in Sources */,
+				CFC3DA682BEF674800C4C683 /* ConfirmationDialogExampleView.swift in Sources */,
+				CFC3DA572BEF672A00C4C683 /* swiftui_toyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFC3DA622BEF672C00C4C683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFC3DA632BEF672C00C4C683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CFC3DA652BEF672C00C4C683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftui-toy/swiftui_toy.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-toy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yamada-k-25.swiftui-toy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFC3DA662BEF672C00C4C683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftui-toy/swiftui_toy.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-toy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yamada-k-25.swiftui-toy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFC3DA4E2BEF672A00C4C683 /* Build configuration list for PBXProject "swiftui-toy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC3DA622BEF672C00C4C683 /* Debug */,
+				CFC3DA632BEF672C00C4C683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC3DA642BEF672C00C4C683 /* Build configuration list for PBXNativeTarget "swiftui-toy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC3DA652BEF672C00C4C683 /* Debug */,
+				CFC3DA662BEF672C00C4C683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFC3DA4B2BEF672A00C4C683 /* Project object */;
+}
