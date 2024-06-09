@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF16771C2C0D921400557F76 /* TextInListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16771B2C0D921400557F76 /* TextInListView.swift */; };
+		CF4008F02C11CD57004AB979 /* FrameModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4008EF2C11CD57004AB979 /* FrameModifierView.swift */; };
+		CF64A57E2BF9E99C00E5065D /* Parent2ChildDataBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF64A57D2BF9E99C00E5065D /* Parent2ChildDataBinding.swift */; };
+		CF64A5812BFA395200E5065D /* HelloPW.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF64A5802BFA395200E5065D /* HelloPW.swift */; };
+		CF64A5832BFC5A8A00E5065D /* AppStorageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF64A5822BFC5A8A00E5065D /* AppStorageExample.swift */; };
+		CF64A5852C00496200E5065D /* ButtonEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF64A5842C00496200E5065D /* ButtonEffect.swift */; };
+		CF64A5872C006F3700E5065D /* SafeAreaInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF64A5862C006F3700E5065D /* SafeAreaInset.swift */; };
+		CF64A5892C00C28900E5065D /* OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF64A5882C00C28900E5065D /* OnChange.swift */; };
+		CFB489782C0DCEA80054B045 /* HStackSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB489772C0DCEA80054B045 /* HStackSampleView.swift */; };
 		CFC3DA572BEF672A00C4C683 /* swiftui_toyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3DA562BEF672A00C4C683 /* swiftui_toyApp.swift */; };
 		CFC3DA5D2BEF672C00C4C683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC3DA5C2BEF672C00C4C683 /* Assets.xcassets */; };
 		CFC3DA612BEF672C00C4C683 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC3DA602BEF672C00C4C683 /* Preview Assets.xcassets */; };
@@ -15,9 +24,23 @@
 		CFC3DA6C2BEF749200C4C683 /* ShowUserInterfaceClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3DA6B2BEF749200C4C683 /* ShowUserInterfaceClassesView.swift */; };
 		CFC3DA6E2BF0B4D500C4C683 /* ConfirmationDialogAndMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3DA6D2BF0B4D500C4C683 /* ConfirmationDialogAndMenuView.swift */; };
 		CFC3DA722BF61B4800C4C683 /* NavigationJumpExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3DA712BF61B4800C4C683 /* NavigationJumpExampleView.swift */; };
+		CFD4C0242C0EB1DF002EF27B /* FontSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD4C0232C0EB1DF002EF27B /* FontSampleView.swift */; };
+		CFD5FFDC2C0804C2000D0D46 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD5FFDB2C0804C2000D0D46 /* NavigationStackView.swift */; };
+		CFD5FFDE2C080D88000D0D46 /* NavigationStackChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD5FFDD2C080D88000D0D46 /* NavigationStackChildView.swift */; };
+		CFD5FFE02C0828C8000D0D46 /* ResultBuilderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD5FFDF2C0828C8000D0D46 /* ResultBuilderSample.swift */; };
+		CFD5FFE22C082EE7000D0D46 /* NumberText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD5FFE12C082EE7000D0D46 /* NumberText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF16771B2C0D921400557F76 /* TextInListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInListView.swift; sourceTree = "<group>"; };
+		CF4008EF2C11CD57004AB979 /* FrameModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameModifierView.swift; sourceTree = "<group>"; };
+		CF64A57D2BF9E99C00E5065D /* Parent2ChildDataBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent2ChildDataBinding.swift; sourceTree = "<group>"; };
+		CF64A5802BFA395200E5065D /* HelloPW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPW.swift; sourceTree = "<group>"; };
+		CF64A5822BFC5A8A00E5065D /* AppStorageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageExample.swift; sourceTree = "<group>"; };
+		CF64A5842C00496200E5065D /* ButtonEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonEffect.swift; sourceTree = "<group>"; };
+		CF64A5862C006F3700E5065D /* SafeAreaInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInset.swift; sourceTree = "<group>"; };
+		CF64A5882C00C28900E5065D /* OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChange.swift; sourceTree = "<group>"; };
+		CFB489772C0DCEA80054B045 /* HStackSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackSampleView.swift; sourceTree = "<group>"; };
 		CFC3DA532BEF672A00C4C683 /* swiftui-toy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-toy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC3DA562BEF672A00C4C683 /* swiftui_toyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_toyApp.swift; sourceTree = "<group>"; };
 		CFC3DA5C2BEF672C00C4C683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -28,6 +51,11 @@
 		CFC3DA6B2BEF749200C4C683 /* ShowUserInterfaceClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUserInterfaceClassesView.swift; sourceTree = "<group>"; };
 		CFC3DA6D2BF0B4D500C4C683 /* ConfirmationDialogAndMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogAndMenuView.swift; sourceTree = "<group>"; };
 		CFC3DA712BF61B4800C4C683 /* NavigationJumpExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationJumpExampleView.swift; sourceTree = "<group>"; };
+		CFD4C0232C0EB1DF002EF27B /* FontSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSampleView.swift; sourceTree = "<group>"; };
+		CFD5FFDB2C0804C2000D0D46 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		CFD5FFDD2C080D88000D0D46 /* NavigationStackChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackChildView.swift; sourceTree = "<group>"; };
+		CFD5FFDF2C0828C8000D0D46 /* ResultBuilderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBuilderSample.swift; sourceTree = "<group>"; };
+		CFD5FFE12C082EE7000D0D46 /* NumberText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,13 +72,51 @@
 		CF64A57A2BF8E20E00E5065D /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				CF64A57F2BFA394100E5065D /* PropertyWrappers */,
+				CF64A57C2BF9E8AD00E5065D /* Views */,
+				CF64A57B2BF9E8A500E5065D /* DataBinding */,
+				CFD5FFDF2C0828C8000D0D46 /* ResultBuilderSample.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		CF64A57B2BF9E8A500E5065D /* DataBinding */ = {
+			isa = PBXGroup;
+			children = (
+				CF64A57D2BF9E99C00E5065D /* Parent2ChildDataBinding.swift */,
+			);
+			path = DataBinding;
+			sourceTree = "<group>";
+		};
+		CF64A57C2BF9E8AD00E5065D /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				CFC3DA712BF61B4800C4C683 /* NavigationJumpExampleView.swift */,
 				CFC3DA692BEF692200C4C683 /* MenuExampleView.swift */,
 				CFC3DA6B2BEF749200C4C683 /* ShowUserInterfaceClassesView.swift */,
 				CFC3DA672BEF674800C4C683 /* ConfirmationDialogExampleView.swift */,
 				CFC3DA6D2BF0B4D500C4C683 /* ConfirmationDialogAndMenuView.swift */,
+				CF64A5842C00496200E5065D /* ButtonEffect.swift */,
+				CF64A5862C006F3700E5065D /* SafeAreaInset.swift */,
+				CFD5FFDB2C0804C2000D0D46 /* NavigationStackView.swift */,
+				CFD5FFDD2C080D88000D0D46 /* NavigationStackChildView.swift */,
+				CFD5FFE12C082EE7000D0D46 /* NumberText.swift */,
+				CF16771B2C0D921400557F76 /* TextInListView.swift */,
+				CFB489772C0DCEA80054B045 /* HStackSampleView.swift */,
+				CFD4C0232C0EB1DF002EF27B /* FontSampleView.swift */,
+				CF4008EF2C11CD57004AB979 /* FrameModifierView.swift */,
 			);
-			path = Examples;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF64A57F2BFA394100E5065D /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				CF64A5802BFA395200E5065D /* HelloPW.swift */,
+				CF64A5822BFC5A8A00E5065D /* AppStorageExample.swift */,
+				CF64A5882C00C28900E5065D /* OnChange.swift */,
+			);
+			path = PropertyWrappers;
 			sourceTree = "<group>";
 		};
 		CFC3DA4A2BEF672A00C4C683 = {
@@ -159,12 +225,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD5FFDE2C080D88000D0D46 /* NavigationStackChildView.swift in Sources */,
+				CFD4C0242C0EB1DF002EF27B /* FontSampleView.swift in Sources */,
+				CF64A5892C00C28900E5065D /* OnChange.swift in Sources */,
+				CFB489782C0DCEA80054B045 /* HStackSampleView.swift in Sources */,
+				CF64A57E2BF9E99C00E5065D /* Parent2ChildDataBinding.swift in Sources */,
+				CF64A5872C006F3700E5065D /* SafeAreaInset.swift in Sources */,
 				CFC3DA6C2BEF749200C4C683 /* ShowUserInterfaceClassesView.swift in Sources */,
+				CF64A5852C00496200E5065D /* ButtonEffect.swift in Sources */,
 				CFC3DA722BF61B4800C4C683 /* NavigationJumpExampleView.swift in Sources */,
+				CF64A5812BFA395200E5065D /* HelloPW.swift in Sources */,
+				CF16771C2C0D921400557F76 /* TextInListView.swift in Sources */,
+				CFD5FFDC2C0804C2000D0D46 /* NavigationStackView.swift in Sources */,
+				CFD5FFE22C082EE7000D0D46 /* NumberText.swift in Sources */,
 				CFC3DA6E2BF0B4D500C4C683 /* ConfirmationDialogAndMenuView.swift in Sources */,
 				CFC3DA6A2BEF692200C4C683 /* MenuExampleView.swift in Sources */,
+				CF4008F02C11CD57004AB979 /* FrameModifierView.swift in Sources */,
 				CFC3DA682BEF674800C4C683 /* ConfirmationDialogExampleView.swift in Sources */,
+				CFD5FFE02C0828C8000D0D46 /* ResultBuilderSample.swift in Sources */,
 				CFC3DA572BEF672A00C4C683 /* swiftui_toyApp.swift in Sources */,
+				CF64A5832BFC5A8A00E5065D /* AppStorageExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,7 +5,22 @@ import SwiftData
 struct swiftui_toyApp: App {
     var body: some Scene {
         WindowGroup {
-            ShowUserInterfaceClassesView()
+            NavigationStack {
+                List {
+                    NavigationLink("\(ButtonEffectView.self)") {
+                        ButtonEffectView()
+                    }
+                    NavigationLink("\(SafeAreaInsetView.self)") {
+                        SafeAreaInsetView()
+                    }
+                    NavigationLink("\(OnChangeExampleView.self)") {
+                        OnChangeExampleView()
+                    }
+                    NavigationLink("\(FontSampleView.self)") {
+                        FontSampleView()
+                    }
+                }
+            }
         }
     }
 }
